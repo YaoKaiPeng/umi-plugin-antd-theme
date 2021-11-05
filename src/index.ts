@@ -8,7 +8,7 @@ import rimraf from 'rimraf';
 import { existsSync, mkdirSync } from 'fs';
 import defaultTheme from './defaultTheme';
 
-const buildCss = require('antd-pro-merge-less');
+const buildCss = require('@ersinfotech/antd-pro-merge-less');
 const winPath = require('slash2');
 
 interface themeConfig {
